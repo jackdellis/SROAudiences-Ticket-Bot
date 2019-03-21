@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 import os
 import time
 
-firstName = 'First NAME'
+firstName = 'FIRSTNAME'
 lastName = 'SURNAME'
 firstName2 = 'FIRSTNAME2'
 lastName2 = 'SURNAME2'
