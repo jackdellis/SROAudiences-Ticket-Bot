@@ -26,7 +26,7 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=1920x1080")
 
-browser = webdriver.Chrome(chrome_options=chrome_options, executable_path='/Users/jackellis/Desktop/python/chromedriver')
+browser = webdriver.Chrome(chrome_options=chrome_options, executable_path='PATH HERE')
 browser.get('https://www.sroaudiences.com/shows.asp')
 time.sleep(2)
 showButtons = browser.find_elements_by_css_selector('.WhiteText a')
